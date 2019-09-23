@@ -1,22 +1,180 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #4d4dff
+}
+
+.calculator {
+  border: 5px solid black;
+  width: 300px;
+  position: relative;
+  
+}
+
+.screen {
+  height: 60px;
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background: black;
+  color: white;
+  border: 3px solid white;
+  text-align: right;
+}
+
+.buttons {
+display: flex;
+flex-wrap: wrap;
+}
+
+button {
+  flex: 0 0 25%;
+  border: 1px solid black;
+  padding: 0.5rem 0;
+  background: white;
+  font-size: 2rem;
+  position: relative;
+  color: black;
+}
+
+#equals {
+background: rgb(20, 158, 20);
+}
+
+#equals:hover {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+#clear {
+  background: rgb(189, 54, 54);
+}
+
+#clear:hover {
+  color: white;
+}
+
+#add {
+background: grey;
+}
+
+#add:hover {
+  background: white;
+}
+
+#subtract {
+  background: grey;
+}
+
+#subtract:hover {
+  background: white;
+}
+
+#multiply {
+  background: grey;
+}
+
+#multiply:hover {
+  background: white;
+}
+
+#divide {
+  background: grey;
+}
+
+#divide:hover {
+  background: white;
+}
+
+#decimal {
+background: grey;
+}
+
+#decimal:hover {
+  background: white;
+}
+
+#exponent {
+  background: grey;
+}
+
+#exponent:hover {
+  background: white;
+}
+
+#remainder {
+  background: grey;
+}
+
+#remainder:hover {
+  background: white;
+}
+
+#nine:hover {
+  background: black;
+  color: white;
+}
+
+#eight:hover {
+  background: black;
+  color: white;
+}
+
+#seven:hover {
+  background: black;
+  color: white;
+}
+
+#six:hover {
+  background: black;
+  color: white;
+}
+
+#five:hover {
+  background: black;
+  color: white;
+}
+
+#four:hover {
+  background: black;
+  color: white;
+}
+
+#three:hover {
+  background: black;
+  color: white;
+}
+
+#two:hover {
+  background: black;
+  color: white;
+}
+
+#one:hover {
+  background: black;
+  color: white;
+}
+
+#zero:hover {
+  background: black;
+  color: white;
+}
+
+#pi:hover {
+  background: black;
+  color: white;
 }
